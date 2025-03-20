@@ -10,7 +10,7 @@ export async function Create(
 ) {
   const { url, prompt, schema, options } =
     CreatePromptRequestSchema.parse(params);
-  const response = await ashraRequest(`${process.env.ASHRA_API_URL}/prompt`, {
+  const response = await ashraRequest(`https://api.ashra.ai/prompt`, {
     method: "POST",
     body: { url, prompt, schema, options },
   });
