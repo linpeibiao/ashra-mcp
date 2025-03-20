@@ -6,7 +6,7 @@ import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
-import { AshraError, isAshraError } from "./common/errors";
+import { AshraError, isAshraError } from "./common/errors.js";
 import { z } from "zod";
 import { zodToJsonSchema } from "zod-to-json-schema";
 

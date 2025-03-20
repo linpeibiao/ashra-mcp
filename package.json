@@ -1,4 +1,16 @@
 {
+  "name": "ashra-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "ashra": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
     "dotenv": "^16.4.7",
@@ -7,6 +19,7 @@
     "zod-to-json-schema": "^3.24.4"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
   }
 }

@@ -1,5 +1,5 @@
 import { getUserAgent } from "universal-user-agent";
-import { createAshraError } from "./errors";
+import { createAshraError } from "./errors.js";
 
 const USER_AGENT = `modelcontextprotocol/servers/ashra/v1 ${getUserAgent()}`;
 
