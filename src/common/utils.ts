@@ -28,10 +28,6 @@ export async function ashraRequest(
     ...options.headers,
   };
 
-  if (process.env.ASHRA_API_KEY) {
-    headers["Authorization"] = `Bearer ${process.env.ASHRA_API_KEY}`;
-  }
-
   const response = await fetch(url, {
     method: options.method || "GET",
     headers,
