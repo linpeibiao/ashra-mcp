@@ -21,14 +21,12 @@ Add to or create the following file `claude_desktop_config.json` in `cd ~/Librar
 ```json
 {
   "mcpServers": {
-		"ashra": {
+    "ashra": {
       "command": "node",
       // OR if you're using nvm and the version picked is not preferred
-			"command": "/Users/<user>/.nvm/versions/node/<version>/bin/node",
-			"args": [
-				"<path/to/ashra-mcp>/build/index.js"
-			]
-		}
-	}
+      "command": "/Users/<user>/.nvm/versions/node/<version>/bin/node",
+      "args": ["<path/to/ashra-mcp>/build/index.js"]
+    }
+  }
 }
 ```
