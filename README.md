@@ -1,4 +1,4 @@
-# ashra-mcp
+# Ashra MCP
 
 A Model Context Protocol server for Ashra.
 
