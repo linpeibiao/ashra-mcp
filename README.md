@@ -30,3 +30,7 @@ Add to or create the following file `claude_desktop_config.json` in `cd ~/Librar
   }
 }
 ```
+
+## Troubleshooting
+
+Consult the [MCP server documentation](https://modelcontextprotocol.io/quickstart/server) for more information.
