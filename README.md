@@ -25,7 +25,10 @@ Add to or create the following file `claude_desktop_config.json` in `cd ~/Librar
       "command": "node",
       // OR if you're using nvm and the version picked is not preferred/working
       // "command": "/Users/<user>/.nvm/versions/node/<version>/bin/node",
-      "args": ["<path/to/ashra-mcp>/build/index.js"]
+      "args": ["<path/to/ashra-mcp>/build/index.js"],
+      "env": {
+        "ASHRA_API_KEY": "<YOUR-API-KEY>"
+      }
     }
   }
 }
